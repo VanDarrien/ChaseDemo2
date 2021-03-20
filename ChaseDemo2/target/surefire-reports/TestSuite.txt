@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 1, Errors: 0, Skipped: 3, Time elapsed: 0.723 s <<< FAILURE! - in TestSuite
+setUpClass(abc.tt.runners.RunnerClass)  Time elapsed: 0.55 s  <<< FAILURE!
+cucumber.runtime.CucumberException: Couldn't load plugin class: html.target/cucumber-htmlreport
+Caused by: java.lang.ClassNotFoundException: html.target/cucumber-htmlreport
+
